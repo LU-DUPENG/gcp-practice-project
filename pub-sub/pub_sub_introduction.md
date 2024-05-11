@@ -19,9 +19,9 @@ Pub/Sub, offered by Google Cloud, is a messaging service that enables asynchrono
 ---
 **Section 2-1. Prerequisites**
  1. **Set up Google Cloud CLI environment:** Follow the instructions here to set up the Google Cloud CLI
-[Publish and receive messages in Pub/Sub by using a client library](https://cloud.google.com/pubsub/docs/publish-receive-messages-client-library#before-you-begin)
+    [Publish and receive messages in Pub/Sub by using a client library](https://cloud.google.com/pubsub/docs/publish-receive-messages-client-library#before-you-begin)
  1. **Set up Python environment:** Ensure you have a working Python environment with the necessary libraries installed. Refer to the guide here for setting up a Python environment
-[Setting up a Python development environment](https://cloud.google.com/python/docs/setup)
+    [Setting up a Python development environment](https://cloud.google.com/python/docs/setup)
 
 **Section 2-2. Publishing Messages**
 
