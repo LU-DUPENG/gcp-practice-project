@@ -1,0 +1,25 @@
+{
+    "name": "Reading csv files from Cloud Storage to Write to Bigquery Python flex template",
+    "description": "A Python flex template to read csv files from Cloud Storage to Write to Bigquery Table.",
+    "parameters": [
+      {
+        "name": "input_books_csv",
+        "label": "Input Path of Books CSV",
+        "helpText": "Path to the CSV file containing books data (e.g., gs://your-bucket/books.csv).",
+        "regexes": ["^gs:\\/\\/[^\\n\\r]+$"]
+      },
+      {
+        "name": "input_libraries_csv",
+        "label": "Input Path of libraries CSV",
+        "helpText": "Path to the CSV file containing library data (e.g., gs://your-bucket/libraries.csv).",
+        "regexes": ["^gs:\\/\\/[^\\n\\r]+$"]
+      },
+      {
+        "name": "output_bq_table",
+        "label": "Output BigQuery Table",
+        "helpText": "BigQuery table to write the output data to (e.g., project.dataset.table).",
+        "regexes": ["^[^.]+\\.[^.]+\\.[^.]+$"]
+      }
+  
+    ]
+  }
