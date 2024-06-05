@@ -26,7 +26,7 @@ def word_count(argv=None):
     google_cloud_options = options.view_as(GoogleCloudOptions)
     google_cloud_options.project = "your project id"
     google_cloud_options.staging_location = "your staging location in cloud storage"
-    google_cloud_options.template_location = "your template location and template name"
+    google_cloud_options.template_location = "/path/to/template folder in the bucket location/myWordCountTemplate"
     google_cloud_options.region = 'your region'
     options.view_as(StandardOptions).runner = 'DataflowRunner' 
     pipeline = beam.Pipeline(options=options)
