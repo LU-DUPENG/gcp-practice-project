@@ -1,6 +1,6 @@
 {
     "description": "An example classic template of counting word",
-    "name": "my_word_count_re_v3", 
+    "name": "myWordCountTemplate", 
     "parameters": [
         {
             "name": "input",
