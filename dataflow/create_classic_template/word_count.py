@@ -2,7 +2,6 @@ import apache_beam as beam
 from apache_beam.options.pipeline_options import PipelineOptions
 from apache_beam.options.pipeline_options import GoogleCloudOptions
 from apache_beam.options.pipeline_options import StandardOptions
-from apache_beam.options.pipeline_options import WorkerOptions
 
 def word_count(argv=None):
     class WordcountOptions(PipelineOptions):
