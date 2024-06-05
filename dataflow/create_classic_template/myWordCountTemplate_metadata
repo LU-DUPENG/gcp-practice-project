@@ -1,0 +1,18 @@
+{
+    "description": "An example classic template of counting word",
+    "name": "my_word_count_re_v3", 
+    "parameters": [
+        {
+            "name": "input",
+            "label": "Input Path of File",
+            "helpText": "Path of the file to read from (e.g., gs://your-bucket/books.csv).",
+            "regexes": ["^gs:\\/\\/[^\\n\\r]+$"]
+        },
+        {
+        "name": "output",
+        "label": "File Path Prefix of output file",
+        "helpText": "Path to output file(e.g., gs://your-bucket/output-).",
+        "regexes": ["^gs:\\/\\/[^\\n\\r]+$"]
+        }
+    ]
+}
